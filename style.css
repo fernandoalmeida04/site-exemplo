@@ -1,0 +1,514 @@
+@font-face{
+    font-family: 'Titillium Web';
+    src: local('font/TitilliumWeb-Light.ttf'), url('font/TitilliumWeb-Light.ttf');
+}
+@font-face{
+    font-family: 'Titillium Web Black';
+    src: local('font/TitilliumWeb-Bold.ttf'), url('font/TitilliumWeb-Bold.ttf');
+}
+@font-face{
+    font-family: 'Montserrat';
+    src: local('font/Montserrat-Light.ttf'), url('font/Montserrat-Light.ttf');
+}
+@font-face{
+    font-family: 'Montserrat Black';
+    src: local('font/Montserrat-Bold.ttf'), url('font/Montserrat-Bold.ttf');
+}
+@font-face{
+    font-family: 'Open Sans';
+    src: local('font/OpenSans-Regular.ttf'), url('font/OpenSans-Regular.ttf');
+}
+
+
+.azul{background-color: cyan;}
+.vermelho{background-color: crimson;}
+.amarelo{background-color: gold;}
+.branco{background-color:white;}
+.aux{background-color:#EFEFEF;}
+
+a:link{
+    text-decoration: none;
+}
+
+.bloco1{
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.08);
+}
+
+.header1{
+    height: 32px;
+    left: 0px;
+    top: 0px;
+    background: #353535;
+    font-family: Titillium Web;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.img-logo{
+    width: 147px;
+    left: 0px;
+    margin-top: 18%;
+}
+
+.barra-pesquisa{
+    background: #EFEFEF;
+    border-radius: 10px;
+    border-color: transparent;
+    margin-top: 4%;
+    height: 40px;
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #353535;
+    display: block;
+    width: 80%;
+}
+
+.botao-pesquisar{
+    height: 40px;
+    width: 119px;
+    margin-top: 4%;
+    background: #FAA500;
+    border-color: transparent;
+    border-radius: 8px;
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.icon-header{
+    height: 16px;
+    display: inline-block;;
+}
+.icon-header2{
+    width: 12,5px;
+    height: 15px;
+}
+
+.text-header{
+    margin-top:3px;
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    display: inline-block;
+    align-items: center;
+    color: #353535;
+    margin-left:3%;
+}
+
+.text-header2a{
+    margin-left: 0.5%;
+    font-family: Titillium Web Black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FAA500;
+}
+.text-header2b{
+    margin-left:8%;
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #353535;
+}
+
+.carousel-caption{
+    text-align: left;
+    padding-bottom: 12%;
+    padding-left: 3%;
+}
+
+.texto-carousel{
+    font-family: Montserrat Black;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+.subtexto-carousel{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    margin-bottom: 2%;
+    line-height: 24px;
+    color: #FFFFFF;  
+}
+
+.botao-carousel{
+    width: 128px;
+    height: 48px;
+    left: 323px;
+    top: 320px;
+    background: #FAA500;
+    border-radius: 10px;
+    border-color: transparent;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.texto-transicao-1{
+    font-family: Titillium Web Black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #353535;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.texto-transicao-2{
+    font-family: Titillium Web Black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 49px;
+    text-align: center;
+    color: #353535;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.texto-transicao-3{
+    font-family: Titillium Web Black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 49px;
+    text-align: center;
+    color: #353535;
+    margin-top: 2%;
+    margin-bottom: -2%;
+}
+
+.cards1{
+    height: 64px;
+    left: 0px;
+    top: 0px;
+    background: #EFEFEF;
+    border-radius: 4px;
+    margin-bottom: 2%;
+}
+.img-card{
+    width: 32px;
+    height: 32px;
+    margin-left:7%;
+    margin-top:5%;
+}
+
+
+.titulo-card{
+    font-family: Titillium Web Black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #353535;
+    margin-left:25%;
+    margin-top:-9%;
+}
+.subtitulo-card{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    color: #000000;
+    margin-left: 25%;
+    margin-top: -2%;
+}
+
+.img-carousel{
+    width: 308px;
+    height: 465px;
+}
+
+.maincontent-area {padding-bottom: 50px; padding-top:20px;}
+
+.product-widget-area .zigzag-bottom{background: #f4f4f4;}
+.footer-top-area .zigzag-bottom{background: #f4f4f4}
+.promo-area .zigzag-bottom, .brands-area .zigzag-bottom{background: #f4f4f4}
+
+.latest-product .owl-nav div, .related-products-wrapper .owl-nav div {
+  background:#FAA500;
+  color:#FFF;
+  display: inline-block;
+  margin-left: 50%;
+  padding: 1px 10px;
+}
+.latest-product .owl-nav div, .related-products-wrapper .owl-nav div {
+  background:#FAA500;
+  color:#FFF;
+  display: inline-block;
+  margin-left: 5px;
+  padding: 1px 10px;
+}
+.latest-product .owl-nav div:hover, .brand-wrapper .owl-nav div:hover, .related-products-wrapper .owl-nav div:hover {color: #FFF; background:#f1b900;}
+.brand-list {padding-top: 40px;}
+.brand-list .owl-nav {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+.texto{
+    font-family: Titillium Web;
+}
+.texto2{
+    font-family: Titillium Web;
+    opacity: 0.5;
+}
+.product-carousel-price ins {
+  color: black;
+  font-weight: 700;
+  margin-right: 5px;
+  text-decoration: none;
+  font-family: Titillium Web;
+}
+.product-carousel {
+  padding-top: 40px;
+}
+
+.single-product h2 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+
+.single-product h2 a {
+    color: #222;
+}
+.single-product p {
+    color: #FAA500;
+    font-weight: 700;
+}
+
+.single-product {
+  overflow: hidden;
+}
+.single-product:hover {}
+.single-product:hover .product-hover a.add-to-cart-link {top: 32%; font-family: Titillium Web;}
+.single-product:hover .product-hover a.view-details-link {bottom: 32%;}
+.single-product:hover .product-hover:after{left: 0}
+.single-wid-product h2 a:hover, .single-product h2 a:hover {
+    color: #FAA500;
+}
+.single-product-widget {
+    position: relative;
+}
+.single-product-area .zigzag-bottom {background-color: #f4f4f4}
+
+.single-product-area {
+  padding: 80px 0 130px;
+}
+
+.product-f-image {
+    position: relative;
+}
+
+.product-hover {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;overflow: hidden;border: 1px solid #ddd;
+}
+.product-hover:after {
+  background: none repeat scroll 0 0 #000;
+  content: "";
+  height: 100%;
+  left: -100%;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  width: 100%;transition: .4s;
+}
+.product-hover a {
+    background: none repeat scroll 0 0 #5a88ca;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    left: 10%;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #5a88ca;
+    width: 80%;z-index: 99;transition: .4s;
+}
+.product-hover a:hover {
+  background: #000;
+  text-decoration: none;border-color: #444;
+}
+
+.product-hover a i.fa {
+    margin-right: 5px;
+}
+.product-hover a.add-to-cart-link {top: -25%;}
+.product-hover a.view-details-link { bottom: -25%;}
+.single-product:hover .product-hover a.add-to-cart-link {top: 32%;}
+.single-product:hover .product-hover a.view-details-link {bottom: 32%;}
+.single-product:hover .product-hover:after{left: 0}
+
+.product-hover a.add-to-cart-link {top: -25%;}
+.single-product:hover .product-hover a.add-to-cart-link {top: 32%;}
+
+.imglorem{
+    left: 0px;
+    top: -58px;
+}
+.titulo-lorem{
+    margin-top: 15%;
+    font-family: Titillium Web Black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 37px;
+    color: #000000;
+}
+.subtitulo-lorem{
+    top: 253px;
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.recebe-news{
+    font-family: Titillium Web Black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.barra-pesquisa2{
+    background: #EFEFEF;
+    border-radius: 10px;
+    border-color: transparent;
+    height: 40px;
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #353535;
+    display: block;
+    width: 60%;
+}
+
+.botao-pesquisar2{
+    height: 40px;
+    width: 100px;
+    background: #FAA500;
+    border-color: transparent;
+    border-radius: 8px;
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.footer-menu ul li {
+
+    padding: 5px 0;
+}
+.footer-menu a {
+    display: block;
+    padding: 5px 0;color: #999
+}
+.footer-wid-title {
+    font-family: Titillium Web Black;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #353535;
+}
+.footer-wid-subtitle{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.divfinal{
+
+    background: #353535;
+}
+
+.foo{
+    float: left;
+    width: 15px;
+    height: 20px;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 4px;
+}
+.color1{background: #DEAC71;}
+.color2{background: #D37164;}
+.color3{background: #6497D3;}
+.color4{background: #3C3B79;}
+.color5{background: #1C1A19;}
+.color6{background: #D84E4B;}
+.color7{background: #CFC9B0;}
+.color8{background: #EAE9E5;}
+
+.imgfooter{
+    float:left;
+    margin-left: 10px;
+}
+.margem-footer{
+    margin-top:1.3%;
+    margin-bottom: 1%;
+}
+
+.textofooter{
+    font-family: Open Sans;
+    font-size: 10px;
+    color: #FFFFFF;
+    margin-bottom:0;
+}
