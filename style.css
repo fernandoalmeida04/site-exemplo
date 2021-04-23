@@ -75,7 +75,7 @@ a:link{
     height: 40px;
     width: 119px;
     margin-top: 4%;
-    background: #FAA500;
+    background: #0099FF;
     border-color: transparent;
     border-radius: 8px;
     font-family: Titillium Web;
@@ -115,7 +115,7 @@ a:link{
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    color: #FAA500;
+    color: #0099FF;
 }
 .text-header2b{
     margin-left:8%;
@@ -155,7 +155,7 @@ a:link{
     height: 48px;
     left: 323px;
     top: 320px;
-    background: #FAA500;
+    background: #0099FF;
     border-radius: 10px;
     border-color: transparent;
     font-family: Montserrat;
@@ -249,20 +249,20 @@ a:link{
 .promo-area .zigzag-bottom, .brands-area .zigzag-bottom{background: #f4f4f4}
 
 .latest-product .owl-nav div, .related-products-wrapper .owl-nav div {
-  background:#FAA500;
+  background:#0099FF;
   color:#FFF;
   display: inline-block;
   margin-left: 50%;
   padding: 1px 10px;
 }
 .latest-product .owl-nav div, .related-products-wrapper .owl-nav div {
-  background:#FAA500;
+  background:#0099FF;
   color:#FFF;
   display: inline-block;
   margin-left: 5px;
   padding: 1px 10px;
 }
-.latest-product .owl-nav div:hover, .brand-wrapper .owl-nav div:hover, .related-products-wrapper .owl-nav div:hover {color: #FFF; background:#f1b900;}
+.latest-product .owl-nav div:hover, .brand-wrapper .owl-nav div:hover, .related-products-wrapper .owl-nav div:hover {color: #FFF; background:#007acc;}
 .brand-list {padding-top: 40px;}
 .brand-list .owl-nav {
   position: absolute;
@@ -301,7 +301,7 @@ a:link{
     color: #222;
 }
 .single-product p {
-    color: #FAA500;
+    color: #0099FF;
     font-weight: 700;
 }
 
@@ -313,7 +313,7 @@ a:link{
 .single-product:hover .product-hover a.view-details-link {bottom: 32%;}
 .single-product:hover .product-hover:after{left: 0}
 .single-wid-product h2 a:hover, .single-product h2 a:hover {
-    color: #FAA500;
+    color: #0099FF;
 }
 .single-product-widget {
     position: relative;
@@ -429,7 +429,7 @@ a:link{
 .botao-pesquisar2{
     height: 40px;
     width: 100px;
-    background: #FAA500;
+    background: #0099FF;
     border-color: transparent;
     border-radius: 8px;
     font-family: Titillium Web;
@@ -565,7 +565,7 @@ a:link{
 }
 .block-slider .bx-prev:hover,
 .block-slider .bx-next:hover{
-	background: #FAA500;
+	background: #0099FF;
 	color: #fff;
 	border-color: #ffffff;
 }
@@ -591,7 +591,7 @@ a:link{
 	border-radius: 50%;
 }
 .block-slider .bx-pager-item a.active{
-	background: #FAA500;
+	background: #0099FF;
 }
 .block-slider .caption-group{
 	position: absolute;
